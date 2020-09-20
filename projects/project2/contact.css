@@ -1,0 +1,121 @@
+body{
+	background-image:url(images/archy1.jpg);
+	background-position:cover;
+	background-color:rgba(50,50,50,0.5);
+	background-blend-mode:darken;
+	background-repeat:no-repeat;
+	color:white;
+	font-family:roboto, san-serif;
+	color:white;
+	
+}
+
+
+ #leftcontainer {
+	 width:80%;
+	 background-color:black;
+	 border-radius:20px;
+	 margin:0px;
+	 overflow:auto;
+	 padding-bottom:30px;
+ }
+ 
+ header{
+	float:left;
+	width:25%
+ }
+ 
+ #logo{
+	 margin-bottom:10px;
+ }
+ 
+ nav {
+	width:50%;
+	line-height:60px;
+	font-size:20px;
+	margin-left:60px;
+	
+}
+
+a {
+	text-decoration:none;
+	color:white;
+}
+
+ul li {
+	list-style-type:none;
+	text-align:center;
+}
+
+ul li:hover {
+	color:rgba(255,71,24,0.3);
+	text-decoration:underline;
+}
+ 
+ h2 {
+	 color:white;
+	 text-align:center;
+	 line-height:200px;
+ }	
+ 
+ #openhrs{
+	 color:white;
+	 text-align:center;
+	 line-height:60px;
+ }
+ 
+  hr {
+	 width:35%;
+ }
+ 
+ section{
+	 padding:30px;
+	 position:relative;
+ }
+ 
+ #maps{
+	 position:absolute;
+	 left:400px;
+	 top:140px;
+	 margin-right:20px;
+ }
+ 
+ #form{
+	 width:20%;
+	 background-color:rgba(80,80,80,0.5);
+	 position:absolute;
+	 left:1000px;
+	 top:100px;
+	 padding:10px;
+	 margin-left:40px;
+ }
+ 
+ p{
+	 margin:0px;
+	 padding:0px;
+ }
+ 
+ span {
+	 margin:0px;
+	 padding:0px;
+ }
+ 
+  #socialmedia {
+			width:2%;
+			position:fixed;
+			right:5px;
+			bottom:180px;
+
+	}
+		
+.socialmediaimg {
+		width:20px;
+		margin:3px;
+}
+
+
+.socialmediaimg:hover {
+		background-color:white;
+		padding:10px;
+		border-radius:25px;
+}

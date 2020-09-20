@@ -1,0 +1,103 @@
+body {
+	background-image:url(images/chess1.png);
+	background-size:cover;
+	background-repeat:no-repeat;
+/*	background-color:rgba(35,138,145,0.7);
+	background-blend-mode:darken; */
+	font-family:roboto, corbel, san-serif;
+	}
+	
+header,#logo,nav,section,#body {
+	
+}
+
+header {
+	background-color:rgba(40,40,40,0.6);
+}
+
+#logo {
+	width:20%;
+	float:left;
+	height:50px;
+	padding:5px;
+	margin-left:20px;
+}
+
+nav {
+	width:40%;
+	float:right;
+	height:50px;
+	font-size:20px;
+}
+
+img {
+	width:50px;
+}
+
+ul li {
+	list-style-type:none;
+	display:inline-block;
+	width:20%;
+	margin-left:20px;
+}
+
+a {
+	text-decoration:none;
+	color:rgb(220,220,220);
+}
+
+section {
+
+} 
+
+#body {
+	width:60%;
+	margin:auto;
+	margin-top:40px;
+	padding:20px;
+	text-align:center;
+	color:white;
+	background-color:rgba(11,255,255,0.3);
+	font-size:20px; 
+}
+
+h1 {
+	font-family: rockwell, sans-serif; 
+	font-size:40px;
+}
+
+p {
+	line-height:30px;
+	font-weight:lighter; 
+	font-family: rockwell, sans-serif;
+}
+
+#section2 {
+	width:60%;
+	margin:auto;
+	margin-top:40px;
+}
+
+#mission {
+	width:48%;
+	margin:auto;
+	margin-top:30px;
+	float:left;
+	text-align:center;
+	color:white;
+	background-color:rgba(50,50,50,0.9);
+	box-shadow:5px 5px 4px gray;
+	font-size:20px;
+}
+
+#vision {
+	width:48%;
+	margin:auto;
+	margin-top:30px;
+	float:right;
+	text-align:center;
+	color:white;
+	background-color:rgba(50,50,50,0.9);
+	box-shadow:5px 5px 4px gray;
+	font-size:20px;
+}

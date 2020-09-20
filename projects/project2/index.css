@@ -1,0 +1,99 @@
+body {
+	background-image:url("images/question.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	font-family:roboto, corbel, san-serif;
+	}
+	
+header {
+	
+}
+	
+#logo {
+	width:20%;
+	float:left;
+	margin-left:70px;
+	color:rgb(220,220,220);
+	height:50px;
+	font-family:cambria;
+}
+
+nav {
+	width:40%;
+	float:right;
+	height:40px;
+	font-size:25px;
+	margin-top:0px;
+}
+
+img {
+	width:80px;
+	margin-top:0px;
+}
+
+ul li {
+	list-style-type:none;
+	display:inline-block;
+	width:20%;
+	margin-left:20px;
+}
+
+ul li:hover {
+	color:rgba(255,71,24,0.3);
+	text-decoration:underline;
+}
+
+a {
+	text-decoration:none;
+	color:white;
+}
+
+#body {
+	width:60%;
+	margin-left:70px;
+	margin-top:180px;
+	min-height:300px;
+	color:white;
+}
+
+h1 {
+	font-size:70px;
+	margin-top:5px;
+	font-family:cambria;
+}
+
+h2 {
+	margin-bottom:5px;
+	font-family:corbel;	
+	font-size:30px;
+}
+
+.btn {
+	height:40px;
+	width:20%;
+	background-color:rgba(255,71,24,0.7);
+	font-family: roboto, sans-serif; 
+	color:white;
+	font-size:20px;
+	border-radius:25px;
+	margin-right:20px;
+}
+
+ #socialmedia {
+			width:20%;
+			position:fixed;
+			right:43%;
+			bottom:30px;
+
+	}
+		
+.socialmediaimg {
+		width:20px;
+		margin:10px;
+}
+
+.socialmediaimg:hover {
+		background-color:white;
+		padding:10px;
+		border-radius:25px;
+}

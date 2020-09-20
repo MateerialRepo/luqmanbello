@@ -1,0 +1,159 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta name="description" content="Css Assignment. Using internal CSS to style a mock ecommerce website">
+	<meta name="author" content="Luqman Bello">
+	<title>CSS Assignment 1</title>
+	<style type="text/css">
+		#motherdiv{
+			background-color:#f4f4f4;
+		}
+		.container{
+			clear:both;
+			overflow:auto;
+			width:90%; 
+			margin-top:20px;
+		}
+		#logocontainer{
+			background-color:black;
+			margin-top:5px;
+			width:72%;
+		}
+		div.loginbar{
+			width:30%;
+			float:left;
+		}
+		#search{
+			border:2px solid red;
+			width:50%;
+			float:left;
+			margin-top:20px;
+			margin-left:50px;
+			height:27px;
+		}
+		#searchbttn{
+			margin-top:20px;
+			height:32px;
+			float:left;
+		}
+		.logo{
+			float:left;
+			width:20%;
+		}
+		h2{
+			width:15%;
+			font-family:comic sans MS;
+			padding:0px;
+			background-color:black;
+			color:white;
+		}
+		#bestdeal{
+			width:80%;
+		}
+		#bestdealsection{
+			margin-top:5px;
+		}
+		p{
+			font-family:cambria;
+			font-size:15px;
+			color:green;
+			text-align:center;
+			margin-top:5px;
+		}
+		.item{
+		width:20%;
+		float:left;
+		}
+		img{
+			width:250px;
+			height:180px;
+			margin-left:10px;
+		}
+		[type="text"]{
+			border:2px solid green;
+		}
+		img:hover{
+			background-color:gray;
+			border:2px solid gray;
+		}
+	</style>
+</head>
+
+<body>
+<div id="motherdiv"><br>
+<!-- Logo and search bar -->	
+	<div class="container" id="logocontainer">
+		<div>
+			<h2 class="logo">Badirah's Bazaar</h2>
+		</div>
+		<div class="logonsearch">
+			<form method="post" action="">
+				<input type="text" name="search" id="search" placeholder="Search for Products, Brands and Categories..." title="Please type in your search item">
+				<input type="submit" value="Search" id="searchbttn">
+			</form>
+		</div>
+	</div>
+	
+<!-- Username and Password bar -->
+	<div class="container">
+		<form method="post" action="">
+			<div class="loginbar">
+				<label for="username">Username:</label>
+				<input type="text" name="username" id="username" placeholder="Username">
+			</div>
+			<div class="loginbar">
+				<label for="pwd">Password:</label>
+				<input type="text" name="pwd" id="pwd" placeholder="Password">
+				<input type="submit" value="Login">
+			</div>
+		</form>
+	</div>
+	
+<!-- Best Deal Section -->	
+	<div class="container" id="bestdealsection">
+		<h2 id="bestdeal">Best Deals</h2>
+	</div>
+	
+<!-- Product Images and price section (bags) -->	
+	<div class="container">
+		<div class="item">
+			<img src="images/bag1.jpg" alt="bag1">
+			<p>Fine Bag - $250</p>
+		</div>
+		<div class="item">
+			<img src="images/bag2.jpg" alt="bag2">
+			<p>Bag on chair - $300</p>
+		</div>
+		<div class="item">
+			<img src="images/bag3.jpg" alt="bag3">
+			<p>Tiny Bag - $175</p>
+		</div>
+		<div class="item">
+			<img src="images/bag4.jpg" alt="bag4">
+			<p>Shoulder strap Bag - $265</p>
+		</div>
+	</div>
+	<!-- Product Images and price section (shoes) -->
+	<div class="container">
+		<div class="item">
+			<img src="images/shoe2.jpg" alt="shoe2">
+			<p>Limited edition Vans - $250</p>
+		</div>
+		<div class="item">
+			<img src="images/shoe3.jpg" alt="shoe3">
+			<p>Casual shoe - $300</p>
+		</div>
+		<div class="item">
+			<img src="images/shoe4.jpg" alt="shoe4">
+			<p>Oldie buh Goldie - $175</p>
+		</div>
+		<div class="item">
+			<img src="images/shoe5.jpg" alt="shoe5">
+			<p>Bling shoes - $265</p>
+		</div>
+	</div>
+</div>
+</body>
+
+</html>

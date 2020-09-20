@@ -1,0 +1,166 @@
+body{
+	background-image:url(images/archy1.jpg);
+	background-position:cover;
+	color:white;
+	font-family:roboto, san-serif;
+}
+
+
+ #leftcontainer {
+	 width:80%;
+	 background-color:black;
+	 border-radius:20px;
+	 margin:0px;
+	 overflow:auto;
+	 padding-bottom:30px;
+	 
+ }
+ 
+ header{
+	float:left;
+	width:25%
+ }
+ 
+ #logo{
+	 margin-bottom: 20px;
+ }
+ 
+ nav {
+	width:50%;
+	line-height:60px;
+	font-size:20px;
+	margin-left:60px;
+	
+}
+
+a {
+	text-decoration:none;
+	color:white;
+}
+
+ul li {
+	list-style-type:none;
+	text-align:center;
+}
+ 
+ ul li:hover {
+	color:rgba(255,71,24,0.3);
+	text-decoration:underline;
+}
+ 
+ h2 {
+	 color:white;
+	 text-align:center;
+	 line-height:200px;
+ }	
+ 
+ #openhrs{
+	 color:white;
+	 text-align:center;
+	 line-height:60px;
+ }
+ 
+section{
+	 float:right;
+	 width:73%;
+	 
+ }
+ #rightcontainer {
+	 width:90%;
+	 margin:auto;
+	 float:right;
+	 margin-right:80px;
+ }
+ 
+ h3 {
+	 font-size:30px;
+	 text-align:center;
+	 margin-bottom:10px;
+ }
+ 
+ hr {
+	 width:35%;
+ }
+ 
+ #aboutus {
+	 margin:auto;
+	 width:60%;
+	 margin-top:20px;
+	 font-size:20px;
+	 font-weight:bolder;
+	 border-radius:10%;
+	 border:2px solid black;
+	 padding:10px;
+	 padding-bottom:20px;
+	 background-color:rgba(80,80,80,0.5);
+	/* box-shadow: 10px 10px 20px #777;
+	 padding:10px;
+	 border-radius:10%; */
+ }
+ 
+ 
+ #misandvis{
+	 width:90%;
+	 margin:auto;
+	 overflow:auto;
+	 margin-top:60px;
+	 height:400px;
+ }
+ 
+ #mission{
+	 width:40%;
+	 float:left;
+	 box-shadow: 10px 10px 20px #777;
+	 padding:10px;
+	 margin-left:20px;
+	 margin-top:15px;
+	 border-radius:10%;
+	 font-weight:bolder;
+	 font-size:20px;
+	 border:2px solid black;
+	 background-color:rgba(80,80,80,0.5);
+ }
+ 
+ #vision{
+	 width:40%;
+	 float:right;
+	 box-shadow: 10px 10px 20px #777;
+	 padding:10px;
+	 margin-right:20px;
+	 margin-top:15px;
+	 border-radius:10%;
+	 font-weight:bolder;
+	 font-size:20px;
+	 border:2px solid black;
+	 background-color:rgba(80,80,80,0.5);
+ }
+ 
+ p{
+	 margin:0px;
+	 padding:0px;
+ }
+ 
+ span {
+	 margin:0px;
+	 padding:0px;
+ }
+ 
+ #socialmedia {
+			width:2%;
+			position:fixed;
+			right:5px;
+			bottom:180px;
+
+	}
+		
+.socialmediaimg {
+		width:20px;
+		margin:3px;
+}
+
+
+.socialmediaimg:hover {
+		background-color:white;
+		padding:10px;
+		border-radius:25px;
+}

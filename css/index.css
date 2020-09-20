@@ -1,0 +1,23 @@
+
+body {
+	font-family: 'Poppins', 'Raleway', sans-serif;
+	box-sizing: border-box;
+}
+/*
+div {
+	border: 1px solid black;
+	min-height: 200px;
+} */
+
+#banner{
+	background-image: url("images/night.jpg");
+	background-position: cover;
+	background-attachment: fixed;
+}
+
+#navtext {
+	font-family: 'Poppins', sans-serif;
+}
+
+
+
