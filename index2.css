@@ -1,0 +1,38 @@
+body {
+	background-image:url(images/night.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-color: rgba(0,147,147,0.5);
+	font-family:"poppins", "Raleway", corbel, san-serif;
+	}
+
+h2 {
+	color: white;
+	font-family:"raleway", san-serif;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+}
+
+.formtext {
+	color:white;!important
+}
+
+
+
+.socialmediaimg {
+		width:20px;
+		margin:10px;
+}
+
+.socialmediaimg:hover {
+		background-color:black;
+		padding:10px;
+		border-radius:25px;
+}
+
+span{
+	margin-right: 30px;
+	font-family: 'Raleway', sans-serif;
+}
